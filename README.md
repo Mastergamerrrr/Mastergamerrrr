@@ -34,20 +34,20 @@ I'm a third-year BSIT student and full-stack developer with hands-on experience 
 <tr>
 <td width="66%" valign="top">
 
-#### [PSITS CTU — student organization platform](https://github.com/Mastergamerrrr/PSITS_CTU_Main)
+#### [Tul.AI — opportunity discovery for Filipino students](https://github.com/Baphus/Tul.AI)
 
-The digital home of the PSITS CTU student organization. It brings together the organization's identity, announcements, events, membership, resources, and contact information in one clear experience.
+An AI-powered scholarship and financial-aid discovery platform that matches Filipino students with verified opportunities, explains each match, and connects them with the official provider.
 
-`React` `Vite` `Tailwind CSS` `Three.js`
+`Next.js` `TypeScript` `Tailwind CSS` `AI`
 
 </td>
 <td width="34%" valign="top">
 
 **Current focus**
 
-`01` Student organization identity<br />
-`02` Events and announcements<br />
-`03` Membership and resources
+`01` Scholarship discovery<br />
+`02` Explainable matching<br />
+`03` Verified opportunity data
 
 </td>
 </tr>
