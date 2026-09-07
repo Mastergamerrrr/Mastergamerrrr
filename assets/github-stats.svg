@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="285" viewBox="0 0 900 285" role="img" aria-labelledby="title description">
   <title id="title">Mastergamerrrr GitHub statistics</title>
-  <desc id="description">Public commits, repositories, stars, followers, and most-used languages. Updated 2026-09-06.</desc>
+  <desc id="description">Public commits, repositories, stars, followers, and most-used languages. Updated 2026-09-07.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117" />
@@ -20,14 +20,14 @@
   <rect x="1" y="1" width="898" height="283" rx="14" fill="url(#background)" stroke="#30363d" />
   <circle cx="855" cy="35" r="48" fill="#1f6feb" opacity=".08" />
   <text class="eyebrow" x="42" y="45">GITHUB / BUILD SIGNAL</text>
-  <text class="updated" x="858" y="45" text-anchor="end">UPDATED 2026-09-06</text>
+  <text class="updated" x="858" y="45" text-anchor="end">UPDATED 2026-09-07</text>
   
       <g transform="translate(42 88)">
-        <text class="value">102</text>
+        <text class="value">98</text>
         <text class="label" y="27">PUBLIC COMMITS</text>
       </g>
       <g transform="translate(247 88)">
-        <text class="value">8</text>
+        <text class="value">7</text>
         <text class="label" y="27">PROJECT REPOS</text>
       </g>
       <g transform="translate(452 88)">
@@ -40,31 +40,31 @@
       </g>
   <line x1="42" y1="153" x2="858" y2="153" stroke="#30363d" />
   <text class="section" x="42" y="177">LANGUAGE FOOTPRINT</text>
-  <g clip-path="url(#bar-clip)"><rect x="42.0" y="191" width="445.6" height="9" fill="#f1e05a" /><rect x="487.6" y="191" width="186.1" height="9" fill="#b07219" /><rect x="673.7" y="191" width="54.7" height="9" fill="#478cbf" /><rect x="728.4" y="191" width="46.3" height="9" fill="#512bd4" /><rect x="774.7" y="191" width="43.4" height="9" fill="#563d7c" /></g>
+  <g clip-path="url(#bar-clip)"><rect x="42.0" y="191" width="381.8" height="9" fill="#f1e05a" /><rect x="423.8" y="191" width="222.7" height="9" fill="#b07219" /><rect x="646.5" y="191" width="65.5" height="9" fill="#478cbf" /><rect x="712.0" y="191" width="55.4" height="9" fill="#512bd4" /><rect x="767.4" y="191" width="43.7" height="9" fill="#563d7c" /></g>
   
       <g transform="translate(42 229)">
         <circle cx="5" cy="-4" r="5" fill="#f1e05a" />
         <text class="legend" x="17">JavaScript</text>
-        <text class="percent" x="17" y="19">54.6%</text>
+        <text class="percent" x="17" y="19">46.8%</text>
       </g>
       <g transform="translate(204 229)">
         <circle cx="5" cy="-4" r="5" fill="#b07219" />
         <text class="legend" x="17">Java</text>
-        <text class="percent" x="17" y="19">22.8%</text>
+        <text class="percent" x="17" y="19">27.3%</text>
       </g>
       <g transform="translate(366 229)">
         <circle cx="5" cy="-4" r="5" fill="#478cbf" />
         <text class="legend" x="17">GDScript</text>
-        <text class="percent" x="17" y="19">6.7%</text>
+        <text class="percent" x="17" y="19">8.0%</text>
       </g>
       <g transform="translate(528 229)">
         <circle cx="5" cy="-4" r="5" fill="#512bd4" />
         <text class="legend" x="17">ASP.NET</text>
-        <text class="percent" x="17" y="19">5.7%</text>
+        <text class="percent" x="17" y="19">6.8%</text>
       </g>
       <g transform="translate(690 229)">
         <circle cx="5" cy="-4" r="5" fill="#563d7c" />
         <text class="legend" x="17">CSS</text>
-        <text class="percent" x="17" y="19">5.3%</text>
+        <text class="percent" x="17" y="19">5.4%</text>
       </g>
 </svg>
