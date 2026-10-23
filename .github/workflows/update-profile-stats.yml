@@ -24,6 +24,7 @@ jobs:
         run: node scripts/generate-profile-stats.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
           PROFILE_USERNAME: Mastergamerrrr
 
       - name: Commit changed stats

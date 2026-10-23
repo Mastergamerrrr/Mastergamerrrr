@@ -13,8 +13,9 @@ const headers = {
   "X-GitHub-Api-Version": "2022-11-28",
 };
 
-if (process.env.GITHUB_TOKEN) {
-  headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+const statsToken = process.env.PROFILE_STATS_TOKEN;
+if (statsToken) {
+  headers.Authorization = "Bearer " + statsToken;
 }
 
 async function github(path) {
@@ -50,8 +51,11 @@ const languageColors = {
   TypeScript: "#3178c6",
 };
 
+const repositoryPath = statsToken
+  ? "/user/repos?per_page=100&visibility=all&affiliation=owner"
+  : `/users/${encodeURIComponent(username)}/repos?per_page=100&type=owner`;
 const [repositories, commitSearch] = await Promise.all([
-  github(`/users/${encodeURIComponent(username)}/repos?per_page=100&type=owner`),
+  github(repositoryPath),
   github(`/search/commits?q=author%3A${encodeURIComponent(username)}`),
 ]);
 
@@ -84,7 +88,7 @@ const projectRepositories = repositories.filter(
 ).length;
 const godotBuilds = languageResults.filter((languages) => languages.GDScript).length;
 const metrics = [
-  ["PUBLIC COMMITS", commitSearch.total_count],
+  [statsToken ? "TOTAL COMMITS" : "PUBLIC COMMITS", commitSearch.total_count],
   ["PROJECT REPOS", projectRepositories],
   ["CODE LANGUAGES", languageBytes.size],
   ["GODOT BUILDS", godotBuilds],

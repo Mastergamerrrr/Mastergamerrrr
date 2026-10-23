@@ -166,9 +166,11 @@ A fishing-game experiment where mechanics, atmosphere, and a slightly mysterious
 
 <div align="center">
 
-<img src="./assets/github-stats.svg" width="100%" alt="Mastergamerrrr's live public GitHub statistics, including commits, project repositories, code languages, Godot builds, and language usage" />
+<img src="./assets/github-stats.svg" width="100%" alt="Mastergamerrrr's live GitHub statistics, including commits, project repositories, code languages, Godot builds, and language usage" />
 
-<sub>Refreshed daily from public GitHub data. Language percentages describe repository code, not proficiency.</sub>
+<sub>Refreshed daily. Aggregate statistics may include private repositories; repository names and contents stay private. Language percentages describe repository code, not proficiency.</sub>
+
+<sub>Private-inclusive totals require the repository's <code>PROFILE_STATS_TOKEN</code> Actions secret; without it, the card falls back to public GitHub data.</sub>
 
 </div>
 
