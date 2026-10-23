@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-labelledby="title description">
   <title id="title">Mastergamerrrr's contributions and language footprint</title>
-  <desc id="description">64 contributions from 2025-10-19 to 2026-10-23. 10 languages across 11 public repositories, including collaborations. Languages: HTML, TypeScript, JavaScript, Java, Python, CSS, ASP.NET, C#, GDScript, PowerShell. Updated 2026-10-23.</desc>
+  <desc id="description">64 contributions from 2025-10-19 to 2026-10-23. 10 languages across 9 public repositories, including collaborations. Languages: HTML, TypeScript, JavaScript, Java, Python, CSS, ASP.NET, C#, GDScript, PowerShell. Updated 2026-10-23.</desc>
   <defs><clipPath id="language-bar"><rect x="28" y="269" width="844" height="9" rx="4.5" /></clipPath></defs>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #c9d1d9; }
@@ -406,22 +406,22 @@
   <text class="muted" x="827" y="202">More</text>
   <line x1="28" y1="226" x2="872" y2="226" stroke="#30363d" />
   <text class="section" x="28" y="251">LANGUAGE FOOTPRINT</text>
-  <text class="muted" x="872" y="251" text-anchor="end">10 languages / 11 public repos</text>
-  <g clip-path="url(#language-bar)"><rect x="28.0000" y="269" width="587.3040" height="9" fill="#e34c26"><title>HTML: 69.59%</title></rect><rect x="615.3040" y="269" width="97.1614" height="9" fill="#3178c6"><title>TypeScript: 11.51%</title></rect><rect x="712.4654" y="269" width="69.3746" height="9" fill="#f1e05a"><title>JavaScript: 8.22%</title></rect><rect x="781.8400" y="269" width="38.0489" height="9" fill="#b07219"><title>Java: 4.51%</title></rect><rect x="819.8889" y="269" width="22.7696" height="9" fill="#3572a5"><title>Python: 2.70%</title></rect><rect x="842.6585" y="269" width="9.7046" height="9" fill="#663399"><title>CSS: 1.15%</title></rect><rect x="852.3631" y="269" width="9.4708" height="9" fill="#9400ff"><title>ASP.NET: 1.12%</title></rect><rect x="861.8339" y="269" width="6.0891" height="9" fill="#178600"><title>C#: 0.72%</title></rect><rect x="867.9230" y="269" width="3.7920" height="9" fill="#355570"><title>GDScript: 0.45%</title></rect><rect x="871.7151" y="269" width="0.2849" height="9" fill="#012456"><title>PowerShell: 0.03%</title></rect></g>
+  <text class="muted" x="872" y="251" text-anchor="end">10 languages / 9 public repos</text>
+  <g clip-path="url(#language-bar)"><rect x="28.0000" y="269" width="586.8462" height="9" fill="#e34c26"><title>HTML: 69.53%</title></rect><rect x="614.8462" y="269" width="96.2380" height="9" fill="#3178c6"><title>TypeScript: 11.40%</title></rect><rect x="711.0842" y="269" width="70.7849" height="9" fill="#f1e05a"><title>JavaScript: 8.39%</title></rect><rect x="781.8691" y="269" width="38.0366" height="9" fill="#b07219"><title>Java: 4.51%</title></rect><rect x="819.9057" y="269" width="22.7622" height="9" fill="#3572a5"><title>Python: 2.70%</title></rect><rect x="842.6679" y="269" width="9.7015" height="9" fill="#663399"><title>CSS: 1.15%</title></rect><rect x="852.3694" y="269" width="9.4678" height="9" fill="#9400ff"><title>ASP.NET: 1.12%</title></rect><rect x="861.8372" y="269" width="6.0871" height="9" fill="#178600"><title>C#: 0.72%</title></rect><rect x="867.9243" y="269" width="3.7908" height="9" fill="#355570"><title>GDScript: 0.45%</title></rect><rect x="871.7152" y="269" width="0.2848" height="9" fill="#012456"><title>PowerShell: 0.03%</title></rect></g>
   <g transform="translate(28 307)">
       <circle cx="5" cy="-4" r="4.5" fill="#e34c26" />
       <text class="language" x="17">HTML</text>
-      <text class="muted percent" x="17" y="16">69.6%</text>
+      <text class="muted percent" x="17" y="16">69.5%</text>
     </g>
     <g transform="translate(239 307)">
       <circle cx="5" cy="-4" r="4.5" fill="#3178c6" />
       <text class="language" x="17">TypeScript</text>
-      <text class="muted percent" x="17" y="16">11.5%</text>
+      <text class="muted percent" x="17" y="16">11.4%</text>
     </g>
     <g transform="translate(450 307)">
       <circle cx="5" cy="-4" r="4.5" fill="#f1e05a" />
       <text class="language" x="17">JavaScript</text>
-      <text class="muted percent" x="17" y="16">8.2%</text>
+      <text class="muted percent" x="17" y="16">8.4%</text>
     </g>
     <g transform="translate(661 307)">
       <circle cx="5" cy="-4" r="4.5" fill="#b07219" />
