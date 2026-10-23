@@ -8,6 +8,8 @@ on:
     branches: [main]
     paths:
       - scripts/generate-profile-stats.mjs
+      - scripts/generate-profile-stats.test.mjs
+      - .github/profile-stats.json
       - .github/workflows/update-profile-stats.yml
 
 permissions:
@@ -19,6 +21,14 @@ jobs:
     steps:
       - name: Check out profile
         uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Verify stats generator
+        run: node --test scripts/generate-profile-stats.test.mjs
 
       - name: Generate stats card
         run: node scripts/generate-profile-stats.mjs

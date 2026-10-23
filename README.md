@@ -88,7 +88,7 @@ A banking application exploring secure account flows, transactions, statements, 
 </td>
 <td width="50%" valign="top">
 
-#### 🎣 [Ocean of Regrets](https://github.com/Mastergamerrrr/Ocean_of_Regrets)
+#### 🎣 [Ocean of Regrets](https://github.com/Mastergamerrrr/Ocean-of-Regrets)
 
 A fishing-game experiment where mechanics, atmosphere, and a slightly mysterious ocean meet.
 
@@ -166,13 +166,23 @@ A fishing-game experiment where mechanics, atmosphere, and a slightly mysterious
 
 <div align="center">
 
-<img src="./assets/github-stats.svg" width="100%" alt="Mastergamerrrr's live GitHub statistics, including commits, project repositories, code languages, Godot builds, and language usage" />
+[<img src="./assets/github-stats.svg" width="100%" alt="Mastergamerrrr's daily GitHub contribution calendar and complete language footprint across owned and collaboration repositories" />](https://github.com/Mastergamerrrr?tab=overview)
 
-<sub>Refreshed daily. Aggregate statistics may include private repositories; repository names and contents stay private. Language percentages describe repository code, not proficiency.</sub>
-
-<sub>Private-inclusive totals require the repository's <code>PROFILE_STATS_TOKEN</code> Actions secret; without it, the card falls back to public GitHub data.</sub>
+<sub>Refreshed daily. Languages span owned and collaboration repositories. Percentages describe repository code, not proficiency.</sub>
 
 </div>
+
+<details>
+<summary>How these stats are counted</summary>
+
+- The calendar mirrors my public GitHub contribution graph for the past year, including anonymized private activity if enabled in my profile settings.
+- The language footprint adds GitHub's language byte counts across every scanned repository and displays every detected language. It measures repository contents, including collaborators' code, rather than my individual authorship. GitHub may exclude vendored, generated, and unrecognized files.
+- Without `PROFILE_STATS_TOKEN`, the daily workflow scans all public repositories I own plus the public collaborations listed in [.github/profile-stats.json](./.github/profile-stats.json). Add new public collaborations there to include them in the fallback.
+- With a `PROFILE_STATS_TOKEN` Actions secret belonging to my account, the workflow also discovers all owned, collaborator, and organization repositories accessible to that token, including private repositories. Token permissions determine coverage. Only aggregate language statistics are published.
+
+Run `node --test scripts/generate-profile-stats.test.mjs` to verify the generator, then `node scripts/generate-profile-stats.mjs` to refresh the card locally.
+
+</details>
 
 ### How I work
 
