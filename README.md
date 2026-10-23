@@ -1,4 +1,4 @@
-<img src="./assets/profile-banner.png" width="100%" alt="A glowing cursor joins software systems and a pixel-art game world" />
+<img src="./assets/profile-banner-v2.png" width="100%" alt="Wireframe architecture becomes a moonlit pixel-art coastline with a glowing cursor, warm workshop lights, and a distant lighthouse" />
 
 <div align="center">
 
