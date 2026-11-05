@@ -88,11 +88,11 @@ A banking application exploring secure account flows, transactions, statements, 
 </td>
 <td width="50%" valign="top">
 
-#### 🎣 [Ocean of Regrets](https://github.com/Mastergamerrrr/Ocean-of-Regrets)
+#### 📚 [Smart Study Planner](https://github.com/Mastergamerrrr/smart-study-planner)
 
-A fishing-game experiment where mechanics, atmosphere, and a slightly mysterious ocean meet.
+A local-first study planner with registration import, a weekly class calendar, deadline tracking, and an AI schedule assistant.
 
-`Godot` `GDScript` `Game Design`
+`React` `TypeScript` `TanStack Start` `SQLite` `Gemini AI`
 
 </td>
 </tr>
