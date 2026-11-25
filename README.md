@@ -1,10 +1,13 @@
-<img src="./assets/profile-banner-v2.png" width="100%" alt="Wireframe architecture becomes a moonlit pixel-art coastline with a glowing cursor, warm workshop lights, and a distant lighthouse" />
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/cherry-blossom-banner.png" />
+  <img src="./assets/cherry-blossom-banner.gif" width="100%" alt="Pink cherry blossom petals fall over a pixel-art grove and a stone bridge across a blue stream at dusk" />
+</picture>
 
 <div align="center">
 
 # Jian Kris Laborte
 
-### Full-Stack Developer · BSIT Student
+**Full-Stack Developer · BSIT Student**
 
 I build web apps, integrate AI and machine learning into software, and make games in Godot.
 
@@ -12,11 +15,73 @@ I build web apps, integrate AI and machine learning into software, and make game
 [![itch.io](https://img.shields.io/badge/itch.io-Play_my_games-FA5C5C?style=flat-square&logo=itchdotio&logoColor=white)](https://shadowlurkerrr.itch.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Mastergamerrrr)
 
+[Shellfie](#shellfie) · [Selected builds](#selected-builds) · [Skills](#skills) · [GitHub activity](#github-activity)
+
 </div>
 
 ---
 
-### About me
+## Shellfie
+
+I’m building a photo-based assistant for identifying Philippine crabs. I implemented the AI and machine learning features and connected a trained YOLOv8 classifier to the FastAPI backend. Take or upload a photo to get experimental suggestions across eight species.
+
+`Python` `FastAPI` `YOLOv8` `React` `TypeScript`
+
+[View the KuhGungGeng repository](https://github.com/KriegSata/KuhGungGeng)
+
+<details>
+<summary>Watch the Shellfie demo</summary>
+
+![Shellfie loads a blue swimming crab photo, shows three possible matches, and asks for another angle when the classifier is uncertain.](./assets/shellfie-demo.gif)
+
+In this example, the blue swimming crab appears among the suggestions. Shellfie asks for another angle because the classifier is uncertain.
+
+The demo uses a cropped reference photo by TANAKA Juuyoh under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). [Photo source](https://commons.wikimedia.org/wiki/File:Portunus_pelagicus.jpg)
+
+</details>
+
+<details>
+<summary>How the crab classifier works</summary>
+
+1. The React app takes a camera photo or accepts an upload.
+2. FastAPI validates the image and runs the trained YOLOv8 classifier on the CPU.
+3. Shellfie lets you compare suggested species with your photo and can withhold a match when the image quality or model scores are too low.
+
+</details>
+
+## Selected builds
+
+### [Tul.AI](https://github.com/Baphus/Tul.AI)
+
+Helps Filipino students find verified scholarships and financial aid, explains why opportunities match, and links to official providers.
+
+`Next.js` `TypeScript` `Tailwind CSS`
+
+### [Java E-Health System](https://github.com/Mastergamerrrr/JavaE-HealthSystem)
+
+A clinic and barangay health-record system with role-based workflows, patient PDFs, QR generation, and QR scanning.
+
+`Java` `JavaFX` `QR` `PDF`
+
+### [Divine Intervention](https://github.com/Mastergamerrrr/Divine-Intervention)
+
+My first game jam entry, built in Godot and released on itch.io.
+
+`Godot` `GDScript` · [Play on itch.io](https://shadowlurkerrr.itch.io/divine-intervention)
+
+### [Aurelia](https://github.com/Mastergamerrrr/Aurelia_private)
+
+A banking application exploring secure account flows, transactions, statements, and practical web-system architecture.
+
+`C#` `.NET` `ASP.NET` `SQL`
+
+### [Smart Study Planner](https://github.com/Mastergamerrrr/smart-study-planner)
+
+A local-first study planner with registration import, a weekly class calendar, deadline tracking, and an AI schedule assistant.
+
+`React` `TypeScript` `TanStack Start` `SQLite` `Gemini AI`
+
+## About me
 
 I’ve built software for student organizations, clinics, and classmates through freelance work, hackathons, and academic projects. I work across user interfaces, APIs, and databases, and enjoy making complex workflows easier to use.
 
@@ -24,62 +89,12 @@ I’ve built software for student organizations, clinics, and classmates through
 - Technical Support Officer at PSITS
 - I speak English, Filipino, Cebuano, and Bantayanon.
 
-### What I'm building now
+## Skills
 
-#### [Shellfie — Philippine crab identification](https://github.com/KriegSata/KuhGungGeng)
+**AI** · `Machine learning` · `Computer vision` · `YOLOv8 image classification` · `LLM API integration` · `Prompt engineering`
 
-I implemented the AI and machine learning features in Shellfie, connecting a trained YOLOv8 image classifier to the app’s FastAPI backend. Take or upload a photo to get experimental suggestions across eight Philippine crab species and compare them with your photo.
-
-`Python` `FastAPI` `YOLOv8` `React` `TypeScript`
-
-### Selected builds
-
-- **[Tul.AI](https://github.com/Baphus/Tul.AI)** helps Filipino students find verified scholarships and financial aid, explains why opportunities match, and links to official providers. `Next.js` `TypeScript` `Tailwind CSS`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🩺 [Java E-Health System](https://github.com/Mastergamerrrr/JavaE-HealthSystem)
-
-A clinic and barangay health-record system with role-based workflows, patient PDFs, QR generation, and QR scanning.
-
-`Java` `JavaFX` `QR` `PDF`
-
-</td>
-<td width="50%" valign="top">
-
-#### ⚔️ [Divine Intervention](https://github.com/Mastergamerrrr/Divine-Intervention)
-
-My first game-jam project: a complete playable experiment built with Godot and shipped on itch.io.
-
-`Godot` `GDScript` `Game Jam` · **[Play it →](https://shadowlurkerrr.itch.io/divine-intervention)**
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🏦 [Aurelia](https://github.com/Mastergamerrrr/Aurelia_private)
-
-A banking application exploring secure account flows, transactions, statements, and practical web-system architecture.
-
-`C#` `.NET` `ASP.NET` `SQL`
-
-</td>
-<td width="50%" valign="top">
-
-#### 📚 [Smart Study Planner](https://github.com/Mastergamerrrr/smart-study-planner)
-
-A local-first study planner with registration import, a weekly class calendar, deadline tracking, and an AI schedule assistant.
-
-`React` `TypeScript` `TanStack Start` `SQLite` `Gemini AI`
-
-</td>
-</tr>
-</table>
-
-### Tech stack
+<details>
+<summary>Full tech stack</summary>
 
 <table>
 <tr>
@@ -114,12 +129,6 @@ A local-first study planner with registration import, a weekly class calendar, d
 </td>
 </tr>
 <tr>
-<td><strong>AI</strong></td>
-<td>
-  <code>Machine learning</code> · <code>Computer vision</code> · <code>YOLOv8 image classification</code> · <code>LLM API integration</code> · <code>Prompt engineering</code>
-</td>
-</tr>
-<tr>
 <td><strong>Platforms</strong></td>
 <td>
   <img src="https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
@@ -143,7 +152,9 @@ A local-first study planner with registration import, a weekly class calendar, d
 </tr>
 </table>
 
-### GitHub at a glance
+</details>
+
+## GitHub activity
 
 <div align="center">
 
