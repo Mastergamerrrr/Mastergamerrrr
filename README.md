@@ -114,9 +114,9 @@ A local-first study planner with registration import, a weekly class calendar, d
 </td>
 </tr>
 <tr>
-<td><strong>AI and machine learning</strong></td>
+<td><strong>AI</strong></td>
 <td>
-  <code>Computer vision</code> · <code>YOLOv8 image classification</code> · <code>LLM API integration</code> · <code>Prompt engineering</code>
+  <code>Machine learning</code> · <code>Computer vision</code> · <code>YOLOv8 image classification</code> · <code>LLM API integration</code> · <code>Prompt engineering</code>
 </td>
 </tr>
 <tr>
