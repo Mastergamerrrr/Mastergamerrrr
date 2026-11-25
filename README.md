@@ -2,15 +2,11 @@
 
 <div align="center">
 
-<sub>SYSTEMS &nbsp; // &nbsp; GAMES &nbsp; // &nbsp; EXPERIMENTS</sub>
-
 # Jian Kris Laborte
 
-### BSIT Student · Full-Stack Developer
+### Full-Stack Developer · BSIT Student
 
-**I build useful systems—and strange little worlds.**
-
-From student-organization platforms and community healthcare software to game-jam experiments, I like turning complicated ideas into experiences people can actually use.
+I build web apps, integrate AI and machine learning into software, and make games in Godot.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/labortejian/)
 [![itch.io](https://img.shields.io/badge/itch.io-Play_my_games-FA5C5C?style=flat-square&logo=itchdotio&logoColor=white)](https://shadowlurkerrr.itch.io/)
@@ -22,38 +18,23 @@ From student-organization platforms and community healthcare software to game-ja
 
 ### About me
 
-I'm a third-year BSIT student and full-stack developer with hands-on experience building web, desktop, and AI-integrated applications through hackathons, freelance work, and academic projects. I have production experience with React, Next.js, Node.js, Django, and Godot, and work across the stack—from interfaces and APIs to databases, desktop systems, and game development.
+I’ve built software for student organizations, clinics, and classmates through freelance work, hackathons, and academic projects. I work across user interfaces, APIs, and databases, and enjoy making complex workflows easier to use.
 
-- **Leadership:** CFO · Google Developer Groups on Campus (GDGoC), CTU Main
-- **Community:** Technical Support Officer · PSITS
-- **Languages:** English · Filipino · Cebuano · Bantayanon
+- CFO at Google Developer Groups on Campus (GDGoC), CTU Main
+- Technical Support Officer at PSITS
+- I speak English, Filipino, Cebuano, and Bantayanon.
 
 ### What I'm building now
 
-<table>
-<tr>
-<td width="66%" valign="top">
+#### [Shellfie — Philippine crab identification](https://github.com/KriegSata/KuhGungGeng)
 
-#### [Tul.AI — opportunity discovery for Filipino students](https://github.com/Baphus/Tul.AI)
+I implemented the AI and machine learning features in Shellfie, connecting a trained YOLOv8 image classifier to the app’s FastAPI backend. Take or upload a photo to get experimental suggestions across eight Philippine crab species and compare them with your photo.
 
-An AI-powered scholarship and financial-aid discovery platform that matches Filipino students with verified opportunities, explains each match, and connects them with the official provider.
-
-`Next.js` `TypeScript` `Tailwind CSS` `AI`
-
-</td>
-<td width="34%" valign="top">
-
-**Current focus**
-
-`01` Scholarship discovery<br />
-`02` Explainable matching<br />
-`03` Verified opportunity data
-
-</td>
-</tr>
-</table>
+`Python` `FastAPI` `YOLOv8` `React` `TypeScript`
 
 ### Selected builds
+
+- **[Tul.AI](https://github.com/Baphus/Tul.AI)** helps Filipino students find verified scholarships and financial aid, explains why opportunities match, and links to official providers. `Next.js` `TypeScript` `Tailwind CSS`
 
 <table>
 <tr>
@@ -133,9 +114,9 @@ A local-first study planner with registration import, a weekly class calendar, d
 </td>
 </tr>
 <tr>
-<td><strong>AI development</strong></td>
+<td><strong>AI and machine learning</strong></td>
 <td>
-  <code>LLM API integration</code> · <code>Prompt engineering</code> · <code>In-app AI features</code>
+  <code>Computer vision</code> · <code>YOLOv8 image classification</code> · <code>LLM API integration</code> · <code>Prompt engineering</code>
 </td>
 </tr>
 <tr>
@@ -184,21 +165,10 @@ Run `node --test scripts/generate-profile-stats.test.mjs` to verify the generato
 
 </details>
 
-### How I work
-
-```text
-find the real problem  →  make the flow understandable  →  build the smallest honest version  →  playtest  →  improve
-```
-
-I’m especially interested in projects where software has a visible effect: helping a student organization connect, helping a clinic find a record, or giving a player a world worth exploring.
-
 ---
 
 <div align="center">
 
-**Have an idea where practical software meets creative technology?**  
 [Start a conversation on LinkedIn](https://www.linkedin.com/in/labortejian/) · [Explore my repositories](https://github.com/Mastergamerrrr?tab=repositories)
-
-<sub>Built with curiosity, iteration, and an unreasonable number of side quests.</sub>
 
 </div>
