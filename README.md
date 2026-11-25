@@ -194,4 +194,9 @@ Run `node --test scripts/generate-profile-stats.test.mjs` to verify the generato
 
 [Start a conversation on LinkedIn](https://www.linkedin.com/in/labortejian/) · [Explore my repositories](https://github.com/Mastergamerrrr?tab=repositories)
 
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/footer-friends.png" />
+  <img src="./assets/footer-friends.gif" width="288" height="116" alt="A pink pixel-art cherry blossom bobs beside a little blue crab waving its claw" />
+</picture>
+
 </div>
